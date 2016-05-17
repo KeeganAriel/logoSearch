@@ -3,36 +3,51 @@
 }
 
 .title {
-	text-align: center;
+	
 	padding-top: 2em;
 	padding-bottom: 2em;
+		text-align: center;
 }
 
-.buttons {
-	text-align:center;
-	margin:auto;
+
+.lable {
+	margin-top: 1.5em;
+	margin-bottom: 1em;
 }
 
-.search {
-	text-align:center;
-	margin:auto;
+
+.form-control {
+	width: 100% !important;
+
+}
+
+.form-inline {
+	text-align: center;
 }
 
 .btn:last-child {
 	margin-top: 2em;
-	margin-bottom: 2em; 
+	margin-bottom: 4em; 
 }
 
-.Images {
+.images {
 	display: flex;
-	width: 35em;
+	width: 32em;
 	flex-wrap: wrap;
-	justify-content: flex-start;
+	justify-content: center;
 	margin: auto;
 }
 
-.acm-color {
-	background-image: 
+img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+
+    }
+
+.active {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition: filter 3s, -webkit-filter 3s;
 }
 
 li {
